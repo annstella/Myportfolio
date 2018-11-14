@@ -5,6 +5,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Passion+One" rel="stylesheet">
+
     <title>MY PORTFOLIO</title>
   </head>
   <body>
@@ -17,12 +19,11 @@
           </button>
               <a class="navbar-brand" href="#">MY PORTFOLIO</a>
 
-              <a class="navbar-brand" href="#about">ABOUTME</a>
+              <a class="navbar-brand" href="#about">ABOUT ME</a>
 
               <a class="navbar-brand" href="#skills">SKILLS</a>
 
               <a class="navbar-brand" href="#projects">PROJECTS</a>
-
 
             </div>
 
@@ -40,17 +41,18 @@
     </center>
     </div>
 
-    <div class="container" id="about">
-        <br>
+    <div class="container">
+        <div id="about">
         <h2><b>ABOUT ME</b></h2>
         <p style="font-size: 20px;">Hi there, <br>I am a full stack developer with a passion for thoughtful UI design, collaboration, and teaching.<br> When am not coding,I love singing,it's a talent! <br>I bring designs to life with various languages that I have learnt  <br> because I want to make things that make a difference.
         </p>
       <br>
       <br>
-          <div class="section">
+    </div> 
+    <br>
+          <div class="section" id="skills">
             <h2><b>SKILLS</b></h2>
             <br>
-            <div class="skills" id="skills">
               <div class="row">
                 <div class="col-lg-4">
                   <img src="images/python.jpeg" alt="A photo python">
@@ -81,7 +83,7 @@
                 </div>
              
             </div>
-          </div>
+         
           <br>
           <br>
               
@@ -89,97 +91,98 @@
             <h2><b>PROJECTS</b></h2>
             <br>
             <div class="projects">
-                <div class="row">
+            <div class ="row">
                     <div class="col-md-4">
-                      <div class="card" style="width:400px; height:550px;">
+                      <div class="card">
                         <div style="background-color:grey;" class="card-body">
                           <h4>Github Search</h4>
                           <img style="width:100%; height:250px;" class="card-img-top" src="images/gsearch.png" alt="Card image">
-                          <p class="card-text">An application where github users can search various projects and other users</p>
-                          <p><strong>Technologies Used:</strong>Html, css, Bootstrap4 and Javascript</p>
-                          <p><a href="https://github.com/annstella/GithubSearch">View code</a></p>
-                          <a href="https://annstella.github.io/GithubSearch/" class="btn btn-outline-primary btn-sm">View
+                          <p class="card-text" style="font-size: 20px;">An application where github users can search various projects and other users</p>
+                          <p style="font-size: 20px;"><strong>Technologies Used:</strong>Html, css, Bootstrap4 and Javascript</p>
+                          <p><a href="https://github.com/annstella/GithubSearch" class="btn btn-info">View code</a></p>
+                          <a href="https://annstella.github.io/GithubSearch/"  class="btn btn-info">View
                             Project</a>
                         </div>
                       </div>
                     </div>
                     <div class="col-md-4">
-                      <div class="card" style="width:400px; height:550px;">
+                      <div class="card">
               
                         <div style="background-color:grey;" class="card-body">
                           <h4>Gallery</h4>
                           <img style="width:100%; height:250px;" class="card-img-top" src="images/gallery.png" alt="Card image">
-                          <p class="card-text">An application where users can have a collection of their pictures </p>
-                          <p><strong>Technologies Used:</strong>Html, css, Bootstrap4 and Django framework.</p>
-                          <p><a href="https://github.com/annstella/gallery">View code</a></p>
-                          <a href="https://pichazangu.herokuapp.com/" class="btn btn-outline-primary btn-sm">View Project</a>
+                          <p class="card-text" style="font-size: 20px;">An application where users can have a collection of their pictures </p>
+                          <p style="font-size: 20px;"><strong>Technologies Used:</strong>Html, css, Bootstrap4 and Django framework.</p>
+                          <p><a href="https://github.com/annstella/gallery" class="btn btn-info">View code</a></p>
+                          <a href="https://pichazangu.herokuapp.com/" class="btn btn-info">View Project</a>
                         </div>
                       </div>
                     </div>
                   
                     <div class="col-md-4">
-                      <div class="card" style="width:400px; height:550px;">
+                      <div class="card">
               
                         <div style="background-color:grey;" class="card-body">
                           <h4>Ping Pong</h4>
                           <img style="width:100%; height:250px;" class="card-img-top" src="images/pong.png" alt="Card image">
-                          <p class="card-text">An application where one inputs a number and tests its divisibility by three,five or both.</p>
-                          <p><strong>Technologies Used:</strong>Html, css, Bootstrap4,Javascript</p>
-                          <p><a href="https://github.com/annstella/pingpong">View code</a></p>
-                          <a href="https://annstella.github.io/pingpong/" class="btn btn-outline-primary btn-sm">View
+                          <p class="card-text" style="font-size: 20px;">An application where one inputs a number and tests its divisibility by three,five or both.</p>
+                          <p style="font-size: 20px;"><strong>Technologies Used:</strong>Html, css, Bootstrap4,Javascript</p>
+                          <p><a href="https://github.com/annstella/pingpong" class="btn btn-info">View code</a></p>
+                          <a href="https://annstella.github.io/pingpong/" class="btn btn-info">View
                             Project</a>
                         </div>
                       </div>
                     </div>
-                </div>
+                    </div>
+             
 
-                <div class="row">
+                    <div class ="row">
                     <div class="col-md-4">
-                      <div class="card" style="width:400px; height:550px;">
+                      <div class="card">
                         <div style="background-color:grey;" class="card-body">
                           <h4>News Highlights</h4>
                           <img style="width:100%; height:250px;" class="card-img-top" src="images/news.png" alt="Card image">
-                          <p class="card-text">An application where one gets informed about the current news and affairs about particular news categories</p>
-                          <p><strong>Technologies Used:</strong>Html, css, Bootstrap4 and Javascript</p>
-                          <p><a href="https://github.com/annstella/NewsHighlight">View code</a></p>
-                          <a href="https://mpasho.herokuapp.com/" class="btn btn-outline-primary btn-sm">View
+                          <p class="card-text" style="font-size: 20px;">An application where one gets informed about the current news and affairs about particular news categories</p>
+                          <p style="font-size: 20px;"><strong>Technologies Used:</strong>Html, css, Bootstrap4 and Javascript</p>
+                          <p><a href="https://github.com/annstella/NewsHighlight" class="btn btn-info">View code</a></p>
+                          <a href="https://mpasho.herokuapp.com/" class="btn btn-info">View
                             Project</a>
                         </div>
                       </div>
                     </div>
                     <div class="col-md-4">
-                      <div class="card" style="width:400px; height:550px;">
+                      <div class="card">
               
                         <div style="background-color:grey;" class="card-body">
                           <h4>KenyanBoardGame</h4>
                           <img style="width:100%; height:250px;" class="card-img-top" src="images/boardgame.png" alt="Card image">
-                          <p class="card-text">An application where one gets to know about Kenya by playing a boardgame </p>
-                          <p><strong>Technologies Used:</strong>Html, css, Bootstrap4 and Javascript.</p>
-                          <p><a href="https://github.com/annstella/Kenyan-Board-Game">View code</a></p>
-                          <a href="https://kenyan-boardgame2.firebaseapp.com/" class="btn btn-outline-primary btn-sm">View Project</a>
+                          <p class="card-text" style="font-size: 20px;">An application where one gets to know about Kenya by playing a boardgame </p>
+                          <p style="font-size: 20px;"><strong>Technologies Used:</strong>Html, css, Bootstrap4 and Javascript.</p>
+                          <p><a href="https://github.com/annstella/Kenyan-Board-Game" class="btn btn-info">View code</a></p>
+                          <a href="https://kenyan-boardgame2.firebaseapp.com/" class="btn btn-info">View Project</a>
                         </div>
                       </div>
                     </div>
                     <div class="col-md-4">
-                      <div class="card" style="width:400px; height:550px;">
+                      <div class="card" >
               
                         <div style="background-color:grey;" class="card-body">
                           <h4>Quotes</h4>
                           <img style="width:100%; height:250px;" class="card-img-top" src="images/quotes.png" alt="Card image">
-                          <p class="card-text">An application where one can add,delete and rate quotes that other people have posted.</p>
-                          <p><strong>Technologies Used:</strong>Html, css, Bootstrap4,Angular</p>
-                          <p><a href="https://github.com/annstella/quotes">View code</a></p>
-                          <a href="https://annstella.github.io/quotes/" class="btn btn-outline-primary btn-sm">View
+                          <p class="card-text" style="font-size: 20px;">An application where one can add,delete and rate quotes that other people have posted.</p>
+                          <p style="font-size: 20px;"><strong>Technologies Used:</strong>Html, css, Bootstrap4,Angular</p>
+                          <p><a href="https://github.com/annstella/quotes" class="btn btn-info">View code</a></p>
+                          <a href="https://annstella.github.io/quotes/" class="btn btn-info">View
                             Project</a>
                         </div>
                       </div>
                     </div>
                 </div>
-   
+              </div>
             </div>
-          </div>
       
-          <div class="section">
+      
+          <div class="section" style="margin-top: 30px;">
             <footer>
               <div id="end">
 
